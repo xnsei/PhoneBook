@@ -1,4 +1,5 @@
 # PhoneBook
 
-Insert Contacts
-Display contacts based on suggestions
+## Implementations
+1. Insert Contacts
+2. Display contacts based on suggestions
