@@ -55,22 +55,19 @@ void displayContacts(string str){
 
         if (curNode == NULL)
         {
-            cout << "nNo Results Found for "" << prefix
-                 << "" n";
+            cout << "nNo Results Found for "" << prefix << "" n";
             i++;
             break;
         }
 
-        cout << "nSuggestions based on "" << prefix
-             << "" are n";
+        cout << "nSuggestions based on "" << prefix << "" are n";
         displayContactsUtil(curNode, prefix);
         prevNode = curNode;
     }
   
     for (; i<len; i++){
         prefix += (char)str[i];
-        cout << "nNo Results Found for "" << prefix
-             << "" n";
+        cout << "nNo Results Found for "" << prefix << "" n";
     }
 }
 
